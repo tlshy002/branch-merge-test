@@ -1,0 +1,98 @@
+/* 전체 페이지의 스타일 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;  /* 수평 중앙 */
+    align-items: center;      /* 수직 중앙 */
+    background-color: #f4f4f4;
+}
+
+/* wrapper 스타일 */
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* 로그인 박스 스타일 */
+.wrap {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* 로고 스타일 */
+.logo img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 로그인 입력폼 스타일 */
+.login_wrap {
+    margin-top: 20px;
+}
+
+.id_wrap, .pw_wrap {
+    margin-bottom: 15px;
+}
+
+.id_input, .pw_input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login_button_wrap {
+    text-align: center;
+}
+
+.login_button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login_button:hover {
+    background-color: skyblue;
+}
+
+.links_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub {
+    color: black;
+   	padding-top: 15px;
+    text-decoration: none;
+    display: flex;
+    font-size: 13px;
+    align-items: center;  
+}
+
+.separator {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 6px;
+    color: gray; 
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
