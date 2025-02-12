@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<br/><br/><br/><br/><br/><br/><br/>
-아이디찾기
+주문 내역
 </body>
 </html>

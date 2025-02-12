@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>FAQ</title>
 </head>
 <body>
-<br/><br/><br/><br/><br/><br/><br/>
-고객센터화면
+FAQ
 </body>
 </html>

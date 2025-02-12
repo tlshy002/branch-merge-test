@@ -8,28 +8,28 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MenuController {
 	
-	@GetMapping(value="/menu/top.html")
+	@GetMapping(value="/menu/top.html") //상의 카테고리 이동
 	public ModelAndView top() {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("BODY","item/top.jsp");
 		return mav;
 	}
 	
-	@GetMapping(value="/menu/bottom.html")
+	@GetMapping(value="/menu/bottom.html")//하의 카테고리 이동
 	public ModelAndView bottom() {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("BODY","item/bottom.jsp");
 		return mav;
 	}
 	
-	@GetMapping(value="/menu/outer.html")
+	@GetMapping(value="/menu/outer.html") //아우터 카테고리 이동
 	public ModelAndView outer() {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("BODY","item/outer.jsp");
 		return mav;
 	}
 	
-	@GetMapping(value="/menu/shoes.html")
+	@GetMapping(value="/menu/shoes.html") //신발 카테고리 이동
 	public ModelAndView shoes() {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("BODY","item/shoes.jsp");

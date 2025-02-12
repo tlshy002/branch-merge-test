@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LikeController {
 	
-	@GetMapping(value="/like/likelist.html")
+	@GetMapping(value="/like/likelist.html") //찜 목록 이동
 	public ModelAndView likelist() {
 		ModelAndView mav = new ModelAndView("index");
 		mav.addObject("BODY","like/likelist.jsp");

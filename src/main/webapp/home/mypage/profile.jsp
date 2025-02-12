@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>아우터 목록</title>
+<title>내 정보</title>
 </head>
 <body>
-<br/><br/><br/><br/><br/><br/><br/>
-아우터 목록
+내 정보 수정
 </body>
 </html>

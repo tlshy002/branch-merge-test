@@ -24,6 +24,7 @@ body, html {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin: 0 auto; /* 화면 중앙 정렬 */
 }
 
 /* 로고 스타일 */
@@ -31,6 +32,8 @@ body, html {
     display: block;
     margin: auto;
     padding: 20px;
+    width: 120px; /* 로고 크기 조정 */
+    height: auto;
 }
 
 /* 로그인 입력폼 스타일 */
@@ -63,6 +66,7 @@ body, html {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .login_button:hover {
@@ -74,25 +78,74 @@ body, html {
     justify-content: center;
 }
 
-
+/* 로그인 관련 링크 스타일 */
 .sub {
     color: black;
-   	padding-top: 15px;
+    padding-top: 15px;
     text-decoration: none;
     display: flex;
     font-size: 13px;
-    align-items: center;  
+    align-items: center;
 }
 
+/* 구분선 스타일 */
 .separator {
-	padding-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 6px;
-    color: gray; 
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 6px;
+    color: gray;
 }
+
+/* 레이블 스타일 */
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .wrap {
+        max-width: 100%; /* 화면 크기가 작을 때 로그인 박스 크기 조정 */
+        padding: 15px;  /* 여백을 적게 설정 */
+    }
+
+    .logo img {
+        width: 100px; /* 로고 크기 감소 */
+    }
+
+    .id_input, .pw_input {
+        padding: 8px;
+        font-size: 14px; /* 작은 화면에 맞게 폰트 크기 조정 */
+    }
+
+    .login_button {
+        padding: 12px; /* 작은 화면에서 버튼 크기 증가 */
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap {
+        max-width: 90%; /* 모바일 화면에 맞게 크기 조정 */
+        padding: 10px;  /* 여백을 더 적게 설정 */
+    }
+
+    .logo img {
+        width: 80px; /* 더 작은 화면에서 로고 크기 감소 */
+    }
+
+    .id_input, .pw_input {
+        padding: 8px;
+        font-size: 12px; /* 모바일 화면에 맞게 폰트 크기 조정 */
+    }
+
+    .login_button {
+        padding: 12px;
+        font-size: 16px; /* 버튼 폰트 크기 조정 */
+    }
+
+    .sub {
+        font-size: 12px; /* 모바일에서 서브 링크 크기 감소 */
+    }
 }

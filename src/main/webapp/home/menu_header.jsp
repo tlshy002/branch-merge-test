@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>헤더메뉴</title>
 <link rel="stylesheet" type="text/css" href="../css/menu.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
           <a href="/snap/snap.html" class="snap">
 	            <img alt="스냅" src="../imgs/icon/snap.png" >
 	        </a>  
-	         <a href="/mypage/mypage.html" class="mypage">
+	         <a href="/mypage/profile.html" class="mypage">
 	            <img alt="마이페이지" src="../imgs/icon/mypage.png" >
 	        </a>   
 	         <a href="/like/likelist.html" class="like">
@@ -38,7 +38,6 @@
 	<button class="top-bar-button" onclick="toggleSidebar()">☰</button>
 	<a href="/login/login.html" class="login">로그인</a> 
 	<a href="/login/selectentry.html" class="sign up">회원가입</a> 
-	<a href="/service/service.html" class="service">고객센터</a>
 	 
 	</div>
 <div class="sidebar">

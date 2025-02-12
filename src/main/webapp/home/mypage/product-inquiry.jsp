@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>상품문의내역</title>
 </head>
 <body>
-<br/><br/><br/><br/><br/><br/><br/>
-비밀번호찾기
+상품문의내역
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>손님 회원가입</title>
+<title>사업자 회원가입</title>
 <link rel="stylesheet" type="text/css" href="../css/signup.css">
 </head>
 <body>
@@ -36,10 +36,10 @@
                 <input type="password" name="PASSWORD_CONFIRM" class="input_field" placeholder="비밀번호를 다시 입력하세요">
             </div>
 
-            <!-- 이름 입력 -->
+            <!-- 상호 입력 -->
             <div class="input_row">
-                <label class="input_label">이름</label>
-                <input type="text" name="NAME" class="input_field" placeholder="이름을 입력하세요">
+                <label class="input_label">상호</label>
+                <input type="text" name="NAME" class="input_field" placeholder="상호를 입력하세요">
             </div>
 
             <!-- 주소 입력 -->

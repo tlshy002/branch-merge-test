@@ -18,21 +18,21 @@
 		<div class="login_wrap"> 
 			<div class="id_wrap">
 					<div class="id_input_box">
-					<input class="id_input">
+					<input class="id_input" placeholder="아이디를 입력하세요">
 				</div>
 			</div>
 			<div class="pw_wrap">
 				<div class="pw_input_box">
-					<input class="pw_input">
+					<input class="pw_input" placeholder="비밀번호를 입력하세요">
 				</div>
 			</div>
 			<div class="login_button_wrap">
 				<input type="button" class="login_button" value="로그인">
 			</div>
 			<div class="links_wrapper">
-			    <a href="/login/findbyid.html" class="sub">아이디 찾기</a>
+			    <a href="/login/findid.html" class="sub">아이디 찾기</a>
 			    <span class="separator">●</span>
-			    <a href="/login/findbypwd.html" class="sub">비밀번호 찾기</a>
+			    <a href="/login/findpwd.html" class="sub">비밀번호 찾기</a>
 			    <span class="separator">●</span>
 			    <a href="/login/selectentry.html" class="sub">회원가입</a>
 			</div>
