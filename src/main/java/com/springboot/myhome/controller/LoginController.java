@@ -13,9 +13,9 @@ public class LoginController {
 	    return mav;
 	}
 	
-	@GetMapping("/login/entry.html")
-	public ModelAndView entry() {
-	    ModelAndView mav = new ModelAndView("login/entry"); 
+	@GetMapping("/login/selectentry.html")
+	public ModelAndView selectentry() {
+	    ModelAndView mav = new ModelAndView("login/selectentry"); 
 	    return mav;
 	}
 	

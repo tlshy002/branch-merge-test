@@ -37,7 +37,7 @@
 	<div class="sub-header">
 	<button class="top-bar-button" onclick="toggleSidebar()">☰</button>
 	<a href="/login/login.html" class="login">로그인</a> 
-	<a href="/login/entry.html" class="sign up">회원가입</a> 
+	<a href="/login/selectentry.html" class="sign up">회원가입</a> 
 	<a href="/service/service.html" class="service">고객센터</a>
 	 
 	</div>

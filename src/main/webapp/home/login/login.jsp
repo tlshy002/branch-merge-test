@@ -34,7 +34,7 @@
 			    <span class="separator">●</span>
 			    <a href="/login/findbypwd.html" class="sub">비밀번호 찾기</a>
 			    <span class="separator">●</span>
-			    <a href="/login/entry.html" class="sub">회원가입</a>
+			    <a href="/login/selectentry.html" class="sub">회원가입</a>
 			</div>
 		</div>			
 	</div>
