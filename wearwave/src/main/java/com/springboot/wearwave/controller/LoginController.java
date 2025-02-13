@@ -31,7 +31,7 @@ public class LoginController {
 	    return mav;
 	}
 	
-	@GetMapping("/login/userentry.html") //손님 회원가입 이동
+	@GetMapping("/login/userentry.html") //손님  회원가입 이동
 	public ModelAndView userentry() {
 	    ModelAndView mav = new ModelAndView("login/userentry"); 
 	    return mav;
