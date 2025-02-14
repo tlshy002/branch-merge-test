@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+/* 고객센터 FAQ 영역 스타일 */
+.faq-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: calc(181% - 40px); /* padding을 제외하고 100% 너비 */
+    box-sizing: border-box; /* padding과 border를 포함한 너비 계산 */
+}
+
+.faq-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    font-size: 16px;
+    color: #555;
+    display: none;
+    padding-top: 10px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+

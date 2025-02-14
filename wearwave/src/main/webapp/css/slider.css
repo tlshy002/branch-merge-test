@@ -5,7 +5,7 @@
 
 /* 슬라이드 쇼 컨테이너 */
 .slideshow-container {
-  max-width: 100%;  /* 화면에 맞게 슬라이드 컨테이너의 크기 조정 */
+  max-width: 90%;  /* 화면에 맞게 슬라이드 컨테이너의 크기 조정 */
   position: relative;
   margin: auto;
   padding-top: 150px;

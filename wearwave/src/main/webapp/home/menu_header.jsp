@@ -23,7 +23,7 @@
           <a href="/snap/snap.html" class="snap">
 	            <img alt="스냅" src="../imgs/icon/snap.png" >
 	        </a>  
-	         <a href="/mypage/profile.html" class="mypage">
+	         <a href="/mypage/notice.html" class="mypage">
 	            <img alt="마이페이지" src="../imgs/icon/mypage.png" >
 	        </a>   
 	         <a href="/like/likelist.html" class="like">
@@ -36,9 +36,15 @@
     </div>
 	<div class="sub-header">
 	<button class="top-bar-button" onclick="toggleSidebar()">☰</button>
-	<a href="/login/login.html" class="login">로그인</a> 
-	<a href="/login/selectentry.html" class="sign up">회원가입</a> 
-	 
+		<c:choose>
+			<c:when test="${sessionScope.loginUser == null }">
+				<a href="/login/login.html" class="login">로그인</a> 
+				<a href="/login/selectentry.html" class="sign up">회원가입</a> 
+			</c:when>
+			<c:otherwise>
+				<a href="/login/logout.html" class="logout">로그아웃</a> 
+			</c:otherwise>
+		</c:choose> 
 	</div>
 <div class="sidebar">
     <div class="menu-item">
@@ -139,7 +145,6 @@ document.querySelectorAll(".menu-item").forEach(menuItem => {
         });
     }
 });
-
 </script>
 </body>
 </html>

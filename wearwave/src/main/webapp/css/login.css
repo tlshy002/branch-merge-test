@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* 전체 페이지의 스타일 */
 body, html {
     margin: 0;
@@ -102,6 +104,14 @@ label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.error_text {
+    display: block;
+    min-height: 20px;  /* 최소 높이 설정 */
+    color: red;
+    font-size: 14px;
+    
 }
 
 /* 반응형 디자인 */
